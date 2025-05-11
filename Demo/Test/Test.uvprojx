@@ -385,94 +385,94 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Source-Codes\gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>i2c.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Source-Codes\i2c.c</FilePath>
-            </File>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Source-Codes\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f1xx_hal.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Source-Codes\stm32f1xx_hal.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f1xx_hal_msp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Source-Codes\stm32f1xx_hal_msp.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f1xx_hal_rcc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Source-Codes\stm32f1xx_hal_rcc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f1xx_it.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Source-Codes\stm32f1xx_it.c</FilePath>
-            </File>
-            <File>
-              <FileName>system_stm32f1xx.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Source-Codes\system_stm32f1xx.c</FilePath>
-            </File>
-            <File>
               <FileName>gpio.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Source-Codes\gpio.h</FilePath>
+              <FilePath>.\SourceCodes\gpio.h</FilePath>
             </File>
             <File>
               <FileName>i2c.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Source-Codes\i2c.h</FilePath>
+              <FilePath>.\SourceCodes\i2c.h</FilePath>
             </File>
             <File>
               <FileName>main.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Source-Codes\main.h</FilePath>
+              <FilePath>.\SourceCodes\main.h</FilePath>
             </File>
             <File>
               <FileName>PAJ7620U2.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Source-Codes\PAJ7620U2.h</FilePath>
+              <FilePath>.\SourceCodes\PAJ7620U2.h</FilePath>
             </File>
             <File>
               <FileName>stm32f1xx.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Source-Codes\stm32f1xx.h</FilePath>
+              <FilePath>.\SourceCodes\stm32f1xx.h</FilePath>
             </File>
             <File>
               <FileName>stm32f1xx_hal.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Source-Codes\stm32f1xx_hal.h</FilePath>
+              <FilePath>.\SourceCodes\stm32f1xx_hal.h</FilePath>
             </File>
             <File>
               <FileName>stm32f1xx_hal_conf.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Source-Codes\stm32f1xx_hal_conf.h</FilePath>
+              <FilePath>.\SourceCodes\stm32f1xx_hal_conf.h</FilePath>
             </File>
             <File>
               <FileName>stm32f1xx_hal_def.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Source-Codes\stm32f1xx_hal_def.h</FilePath>
+              <FilePath>.\SourceCodes\stm32f1xx_hal_def.h</FilePath>
             </File>
             <File>
               <FileName>stm32f1xx_hal_rcc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Source-Codes\stm32f1xx_hal_rcc.h</FilePath>
+              <FilePath>.\SourceCodes\stm32f1xx_hal_rcc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f1xx_it.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Source-Codes\stm32f1xx_it.h</FilePath>
+              <FilePath>.\SourceCodes\stm32f1xx_it.h</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SourceCodes\gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SourceCodes\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SourceCodes\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f1xx_hal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SourceCodes\stm32f1xx_hal.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f1xx_hal_msp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SourceCodes\stm32f1xx_hal_msp.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f1xx_hal_rcc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SourceCodes\stm32f1xx_hal_rcc.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f1xx_it.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SourceCodes\stm32f1xx_it.c</FilePath>
+            </File>
+            <File>
+              <FileName>system_stm32f1xx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SourceCodes\system_stm32f1xx.c</FilePath>
             </File>
           </Files>
         </Group>
