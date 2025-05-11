@@ -1,0 +1,422 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Cirus Chakma, University of Regina, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.40.0.3
+Toolchain Path:  C:\Users\tungy\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.11.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\Study\Uni\Class Notes\Sem 8 Winter 2025\ENEL 351\Project files\Demo\Test\Test.uvprojx
+Project File Date:  05/11/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\tungy\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target_1'
+Source-Codes/i2c.c(9): warning: In file included from...
+Source-Codes\i2c.h(27): warning: In file included from...
+Source-Codes\main.h(10): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(45): warning: In file included from...
+Source-Codes\stm32f1xx_hal_def.h(46): warning: In file included from...
+Source-Codes\stm32f1xx.h(159): error: "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+  159 |  #error "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+      |   ^
+Source-Codes/i2c.c(9): warning: In file included from...
+Source-Codes\i2c.h(27): warning: In file included from...
+Source-Codes\main.h(10): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(66): error: unknown type name 'uint32_t'
+   66 |   uint32_t PLLState;      /*!< PLLState: The new state of the PLL.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(69): error: unknown type name 'uint32_t'
+   69 |   uint32_t PLLSource;     /*!< PLLSource: PLL entry clock source.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(72): error: unknown type name 'uint32_t'
+   72 |   uint32_t PLLMUL;        /*!< PLLMUL: Multiplication factor for PLL VCO input clock
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(81): error: unknown type name 'uint32_t'
+   81 |   uint32_t ClockType;             /*!< The clock to be configured.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(84): error: unknown type name 'uint32_t'
+   84 |   uint32_t SYSCLKSource;          /*!< The clock source (SYSCLKS) used as system clock.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(87): error: unknown type name 'uint32_t'
+   87 |   uint32_t AHBCLKDivider;         /*!< The AHB clock (HCLK) divider. This clock is derived from the system clock (SYSCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(90): error: unknown type name 'uint32_t'
+   90 |   uint32_t APB1CLKDivider;        /*!< The APB1 clock (PCLK1) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(93): error: unknown type name 'uint32_t'
+   93 |   uint32_t APB2CLKDivider;        /*!< The APB2 clock (PCLK2) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(1159): error: 'stm32f1xx_hal_rcc_ex.h' file not found
+ 1159 | #include "stm32f1xx_hal_rcc_ex.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+10 errors generated.
+compiling i2c.c...
+Source-Codes/main.c(20): warning: In file included from...
+Source-Codes\main.h(10): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(45): warning: In file included from...
+Source-Codes\stm32f1xx_hal_def.h(46): warning: In file included from...
+Source-Codes\stm32f1xx.h(159): error: "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+  159 |  #error "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+      |   ^
+Source-Codes/main.c(20): warning: In file included from...
+Source-Codes\main.h(10): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(66): error: unknown type name 'uint32_t'
+   66 |   uint32_t PLLState;      /*!< PLLState: The new state of the PLL.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(69): error: unknown type name 'uint32_t'
+   69 |   uint32_t PLLSource;     /*!< PLLSource: PLL entry clock source.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(72): error: unknown type name 'uint32_t'
+   72 |   uint32_t PLLMUL;        /*!< PLLMUL: Multiplication factor for PLL VCO input clock
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(81): error: unknown type name 'uint32_t'
+   81 |   uint32_t ClockType;             /*!< The clock to be configured.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(84): error: unknown type name 'uint32_t'
+   84 |   uint32_t SYSCLKSource;          /*!< The clock source (SYSCLKS) used as system clock.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(87): error: unknown type name 'uint32_t'
+   87 |   uint32_t AHBCLKDivider;         /*!< The AHB clock (HCLK) divider. This clock is derived from the system clock (SYSCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(90): error: unknown type name 'uint32_t'
+   90 |   uint32_t APB1CLKDivider;        /*!< The APB1 clock (PCLK1) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(93): error: unknown type name 'uint32_t'
+   93 |   uint32_t APB2CLKDivider;        /*!< The APB2 clock (PCLK2) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(1159): error: 'stm32f1xx_hal_rcc_ex.h' file not found
+ 1159 | #include "stm32f1xx_hal_rcc_ex.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+10 errors generated.
+compiling main.c...
+Source-Codes/gpio.c(9): warning: In file included from...
+Source-Codes\gpio.h(28): warning: In file included from...
+Source-Codes\main.h(10): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(45): warning: In file included from...
+Source-Codes\stm32f1xx_hal_def.h(46): warning: In file included from...
+Source-Codes\stm32f1xx.h(159): error: "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+  159 |  #error "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+      |   ^
+Source-Codes/gpio.c(9): warning: In file included from...
+Source-Codes\gpio.h(28): warning: In file included from...
+Source-Codes\main.h(10): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(66): error: unknown type name 'uint32_t'
+   66 |   uint32_t PLLState;      /*!< PLLState: The new state of the PLL.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(69): error: unknown type name 'uint32_t'
+   69 |   uint32_t PLLSource;     /*!< PLLSource: PLL entry clock source.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(72): error: unknown type name 'uint32_t'
+   72 |   uint32_t PLLMUL;        /*!< PLLMUL: Multiplication factor for PLL VCO input clock
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(81): error: unknown type name 'uint32_t'
+   81 |   uint32_t ClockType;             /*!< The clock to be configured.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(84): error: unknown type name 'uint32_t'
+   84 |   uint32_t SYSCLKSource;          /*!< The clock source (SYSCLKS) used as system clock.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(87): error: unknown type name 'uint32_t'
+   87 |   uint32_t AHBCLKDivider;         /*!< The AHB clock (HCLK) divider. This clock is derived from the system clock (SYSCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(90): error: unknown type name 'uint32_t'
+   90 |   uint32_t APB1CLKDivider;        /*!< The APB1 clock (PCLK1) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(93): error: unknown type name 'uint32_t'
+   93 |   uint32_t APB2CLKDivider;        /*!< The APB2 clock (PCLK2) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(1159): error: 'stm32f1xx_hal_rcc_ex.h' file not found
+ 1159 | #include "stm32f1xx_hal_rcc_ex.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+10 errors generated.
+compiling gpio.c...
+Source-Codes/stm32f1xx_hal.c(52): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(45): warning: In file included from...
+Source-Codes\stm32f1xx_hal_def.h(46): warning: In file included from...
+Source-Codes\stm32f1xx.h(159): error: "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+  159 |  #error "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+      |   ^
+Source-Codes/stm32f1xx_hal.c(52): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(66): error: unknown type name 'uint32_t'
+   66 |   uint32_t PLLState;      /*!< PLLState: The new state of the PLL.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(69): error: unknown type name 'uint32_t'
+   69 |   uint32_t PLLSource;     /*!< PLLSource: PLL entry clock source.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(72): error: unknown type name 'uint32_t'
+   72 |   uint32_t PLLMUL;        /*!< PLLMUL: Multiplication factor for PLL VCO input clock
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(81): error: unknown type name 'uint32_t'
+   81 |   uint32_t ClockType;             /*!< The clock to be configured.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(84): error: unknown type name 'uint32_t'
+   84 |   uint32_t SYSCLKSource;          /*!< The clock source (SYSCLKS) used as system clock.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(87): error: unknown type name 'uint32_t'
+   87 |   uint32_t AHBCLKDivider;         /*!< The AHB clock (HCLK) divider. This clock is derived from the system clock (SYSCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(90): error: unknown type name 'uint32_t'
+   90 |   uint32_t APB1CLKDivider;        /*!< The APB1 clock (PCLK1) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(93): error: unknown type name 'uint32_t'
+   93 |   uint32_t APB2CLKDivider;        /*!< The APB2 clock (PCLK2) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(1159): error: 'stm32f1xx_hal_rcc_ex.h' file not found
+ 1159 | #include "stm32f1xx_hal_rcc_ex.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+10 errors generated.
+compiling stm32f1xx_hal.c...
+Source-Codes/system_stm32f1xx.c(77): warning: In file included from...
+Source-Codes\stm32f1xx.h(159): error: "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+  159 |  #error "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+      |   ^
+Source-Codes/system_stm32f1xx.c(139): error: unknown type name 'uint32_t'
+  139 |   uint32_t SystemCoreClock         = 72000000U;        /*!< System Clock Frequency (Core Clock) */
+      |   ^
+Source-Codes/system_stm32f1xx.c(142): error: unknown type name 'uint8_t'
+  142 | const uint8_t AHBPrescTable[16U] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+      |       ^
+Source-Codes/system_stm32f1xx.c(143): error: unknown type name 'uint8_t'
+  143 | const uint8_t APBPrescTable[8U] =  {0, 0, 0, 0, 1, 2, 3, 4};
+      |       ^
+Source-Codes/system_stm32f1xx.c(179): error: use of undeclared identifier 'RCC'
+  179 |   RCC->CR |= 0x00000001U;
+      |   ^
+Source-Codes/system_stm32f1xx.c(183): error: use of undeclared identifier 'RCC'
+  183 |   RCC->CFGR &= 0xF8FF0000U;
+      |   ^
+Source-Codes/system_stm32f1xx.c(189): error: use of undeclared identifier 'RCC'
+  189 |   RCC->CR &= 0xFEF6FFFFU;
+      |   ^
+Source-Codes/system_stm32f1xx.c(192): error: use of undeclared identifier 'RCC'
+  192 |   RCC->CR &= 0xFFFBFFFFU;
+      |   ^
+Source-Codes/system_stm32f1xx.c(195): error: use of undeclared identifier 'RCC'
+  195 |   RCC->CFGR &= 0xFF80FFFFU;
+      |   ^
+Source-Codes/system_stm32f1xx.c(214): error: use of undeclared identifier 'RCC'
+  214 |   RCC->CIR = 0x009F0000U;
+      |   ^
+Source-Codes/system_stm32f1xx.c(226): error: use of undeclared identifier 'SCB'
+  226 |   SCB->VTOR = FLASH_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal FLASH. */
+      |   ^
+Source-Codes/system_stm32f1xx.c(226): error: use of undeclared identifier 'FLASH_BASE'
+  226 |   SCB->VTOR = FLASH_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal FLASH. */
+      |               ^
+Source-Codes/system_stm32f1xx.c(267): error: use of undeclared identifier 'uint32_t'
+  267 |   uint32_t tmp = 0U, pllmull = 0U, pllsource = 0U;
+      |   ^
+Source-Codes/system_stm32f1xx.c(278): error: use of undeclared identifier 'tmp'
+  278 |   tmp = RCC->CFGR & RCC_CFGR_SWS;
+      |   ^
+Source-Codes/system_stm32f1xx.c(278): error: use of undeclared identifier 'RCC'
+  278 |   tmp = RCC->CFGR & RCC_CFGR_SWS;
+      |         ^
+Source-Codes/system_stm32f1xx.c(278): error: use of undeclared identifier 'RCC_CFGR_SWS'
+  278 |   tmp = RCC->CFGR & RCC_CFGR_SWS;
+      |                     ^
+Source-Codes/system_stm32f1xx.c(280): error: use of undeclared identifier 'tmp'
+  280 |   switch (tmp)
+      |           ^
+Source-Codes/system_stm32f1xx.c(291): error: use of undeclared identifier 'pllmull'
+  291 |       pllmull = RCC->CFGR & RCC_CFGR_PLLMULL;
+      |       ^
+Source-Codes/system_stm32f1xx.c(291): error: use of undeclared identifier 'RCC'
+  291 |       pllmull = RCC->CFGR & RCC_CFGR_PLLMULL;
+      |                 ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling system_stm32f1xx.c...
+Source-Codes/stm32f1xx_hal_msp.c(12): warning: In file included from...
+Source-Codes\main.h(10): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(45): warning: In file included from...
+Source-Codes\stm32f1xx_hal_def.h(46): warning: In file included from...
+Source-Codes\stm32f1xx.h(159): error: "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+  159 |  #error "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+      |   ^
+Source-Codes/stm32f1xx_hal_msp.c(12): warning: In file included from...
+Source-Codes\main.h(10): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(66): error: unknown type name 'uint32_t'
+   66 |   uint32_t PLLState;      /*!< PLLState: The new state of the PLL.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(69): error: unknown type name 'uint32_t'
+   69 |   uint32_t PLLSource;     /*!< PLLSource: PLL entry clock source.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(72): error: unknown type name 'uint32_t'
+   72 |   uint32_t PLLMUL;        /*!< PLLMUL: Multiplication factor for PLL VCO input clock
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(81): error: unknown type name 'uint32_t'
+   81 |   uint32_t ClockType;             /*!< The clock to be configured.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(84): error: unknown type name 'uint32_t'
+   84 |   uint32_t SYSCLKSource;          /*!< The clock source (SYSCLKS) used as system clock.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(87): error: unknown type name 'uint32_t'
+   87 |   uint32_t AHBCLKDivider;         /*!< The AHB clock (HCLK) divider. This clock is derived from the system clock (SYSCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(90): error: unknown type name 'uint32_t'
+   90 |   uint32_t APB1CLKDivider;        /*!< The APB1 clock (PCLK1) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(93): error: unknown type name 'uint32_t'
+   93 |   uint32_t APB2CLKDivider;        /*!< The APB2 clock (PCLK2) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(1159): error: 'stm32f1xx_hal_rcc_ex.h' file not found
+ 1159 | #include "stm32f1xx_hal_rcc_ex.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+10 errors generated.
+compiling stm32f1xx_hal_msp.c...
+Source-Codes/stm32f1xx_it.c(11): warning: In file included from...
+Source-Codes\main.h(10): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(45): warning: In file included from...
+Source-Codes\stm32f1xx_hal_def.h(46): warning: In file included from...
+Source-Codes\stm32f1xx.h(159): error: "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+  159 |  #error "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+      |   ^
+Source-Codes/stm32f1xx_it.c(11): warning: In file included from...
+Source-Codes\main.h(10): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(66): error: unknown type name 'uint32_t'
+   66 |   uint32_t PLLState;      /*!< PLLState: The new state of the PLL.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(69): error: unknown type name 'uint32_t'
+   69 |   uint32_t PLLSource;     /*!< PLLSource: PLL entry clock source.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(72): error: unknown type name 'uint32_t'
+   72 |   uint32_t PLLMUL;        /*!< PLLMUL: Multiplication factor for PLL VCO input clock
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(81): error: unknown type name 'uint32_t'
+   81 |   uint32_t ClockType;             /*!< The clock to be configured.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(84): error: unknown type name 'uint32_t'
+   84 |   uint32_t SYSCLKSource;          /*!< The clock source (SYSCLKS) used as system clock.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(87): error: unknown type name 'uint32_t'
+   87 |   uint32_t AHBCLKDivider;         /*!< The AHB clock (HCLK) divider. This clock is derived from the system clock (SYSCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(90): error: unknown type name 'uint32_t'
+   90 |   uint32_t APB1CLKDivider;        /*!< The APB1 clock (PCLK1) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(93): error: unknown type name 'uint32_t'
+   93 |   uint32_t APB2CLKDivider;        /*!< The APB2 clock (PCLK2) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(1159): error: 'stm32f1xx_hal_rcc_ex.h' file not found
+ 1159 | #include "stm32f1xx_hal_rcc_ex.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+10 errors generated.
+compiling stm32f1xx_it.c...
+Source-Codes/stm32f1xx_hal_rcc.c(79): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(45): warning: In file included from...
+Source-Codes\stm32f1xx_hal_def.h(46): warning: In file included from...
+Source-Codes\stm32f1xx.h(159): error: "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+  159 |  #error "Please select first the target STM32F1xx device used in your application (in stm32f1xx.h file)"
+      |   ^
+Source-Codes/stm32f1xx_hal_rcc.c(79): warning: In file included from...
+Source-Codes\stm32f1xx_hal.h(46): warning: In file included from...
+Source-Codes\stm32f1xx_hal_conf.h(219): warning: In file included from...
+Source-Codes\stm32f1xx_hal_rcc.h(66): error: unknown type name 'uint32_t'
+   66 |   uint32_t PLLState;      /*!< PLLState: The new state of the PLL.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(69): error: unknown type name 'uint32_t'
+   69 |   uint32_t PLLSource;     /*!< PLLSource: PLL entry clock source.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(72): error: unknown type name 'uint32_t'
+   72 |   uint32_t PLLMUL;        /*!< PLLMUL: Multiplication factor for PLL VCO input clock
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(81): error: unknown type name 'uint32_t'
+   81 |   uint32_t ClockType;             /*!< The clock to be configured.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(84): error: unknown type name 'uint32_t'
+   84 |   uint32_t SYSCLKSource;          /*!< The clock source (SYSCLKS) used as system clock.
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(87): error: unknown type name 'uint32_t'
+   87 |   uint32_t AHBCLKDivider;         /*!< The AHB clock (HCLK) divider. This clock is derived from the system clock (SYSCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(90): error: unknown type name 'uint32_t'
+   90 |   uint32_t APB1CLKDivider;        /*!< The APB1 clock (PCLK1) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(93): error: unknown type name 'uint32_t'
+   93 |   uint32_t APB2CLKDivider;        /*!< The APB2 clock (PCLK2) divider. This clock is derived from the AHB clock (HCLK).
+      |   ^
+Source-Codes\stm32f1xx_hal_rcc.h(1159): error: 'stm32f1xx_hal_rcc_ex.h' file not found
+ 1159 | #include "stm32f1xx_hal_rcc_ex.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+10 errors generated.
+compiling stm32f1xx_hal_rcc.c...
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+".\Objects\Test.axf" - 89 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103RB
+  ./RTE/_Target_1
+  C:/Users/tungy/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/tungy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Keil::Device:Startup@1.0.0
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/system_stm32f10x.c
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
